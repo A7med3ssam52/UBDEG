@@ -10,8 +10,8 @@ import { FiPhone } from 'react-icons/fi'
 export const companyName = 'الأخوة المتحدون'
 
 export const phone = {
-  display: '+20 103 771 5666',
-  href: 'tel:+201037715666',
+  display: '+20 103 371 5666',
+  href: 'tel:+201033715666',
   label: 'اتصل الآن',
 }
 
@@ -77,7 +77,7 @@ export const socialLinks = [
     id: 'whatsapp',
     name: 'واتساب',
     icon: FaWhatsapp,
-    href: 'https://wa.me/201037715666',
+    href: 'https://wa.me/201033715666',
     active: true,
     featured: false,
     color: '#25d366',

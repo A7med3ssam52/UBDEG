@@ -4,7 +4,7 @@ import styles from './Footer.module.css'
 
 const footerSocial = [
   { id: 'facebook', icon: FaFacebookF, href: facebook.href, color: '#c9a24b' },
-  { id: 'whatsapp', icon: FaWhatsapp, href: 'https://wa.me/201037715666', color: '#25d366' },
+  { id: 'whatsapp', icon: FaWhatsapp, href: 'https://wa.me/201033715666', color: '#25d366' },
   { id: 'instagram', icon: FaInstagram, href: undefined, color: null },
   { id: 'tiktok', icon: FaTiktok, href: undefined, color: null },
 ]
