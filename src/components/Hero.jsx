@@ -13,7 +13,7 @@ function Hero() {
       <div className={styles.content}>
         <div className={styles.logoWrapper}>
           <span className={styles.logo}>
-            <Logo size={120} />
+            <Logo size={120} circle />
           </span>
         </div>
         <h1 className={styles.title}>تواصل معنا</h1>
