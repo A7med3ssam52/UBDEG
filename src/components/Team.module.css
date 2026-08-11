@@ -1,0 +1,80 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.card {
+  padding: 28px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-hover);
+}
+
+.avatar {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 900;
+  color: var(--white);
+  background: linear-gradient(135deg, var(--primary), var(--primary-light));
+  box-shadow: 0 0 0 4px rgba(201, 162, 75, 0.35), 0 12px 28px rgba(74, 44, 23, 0.25);
+  transition: var(--transition);
+}
+
+.card:hover .avatar {
+  transform: scale(1.06);
+}
+
+.name {
+  color: var(--primary);
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
+.role {
+  color: var(--gold-dark);
+  font-size: 0.9rem;
+  font-weight: 700;
+  background: rgba(201, 162, 75, 0.12);
+  border: 1px solid rgba(201, 162, 75, 0.3);
+  padding: 4px 18px;
+  border-radius: 60px;
+}
+
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .card {
+    padding: 36px 24px;
+    gap: 12px;
+  }
+
+  .avatar {
+    width: 104px;
+    height: 104px;
+    font-size: 2.5rem;
+  }
+
+  .name {
+    font-size: 1.3rem;
+  }
+}
