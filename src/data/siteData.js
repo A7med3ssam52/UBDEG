@@ -51,13 +51,13 @@ export const contactCards = [
 
 export const teamMembers = [
   {
-    id: 'khaled',
-    name: 'خالد عبدالمجيد',
+    id: 'ahmed',
+    name: 'أحمد عبدالمجيد',
     role: 'مستشار عقاري',
   },
   {
-    id: 'mohamed',
-    name: 'محمد عبدالمجيد',
+    id: 'khaled',
+    name: 'خالد عبدالمجيد',
     role: 'مستشار عقاري',
   },
 ]
