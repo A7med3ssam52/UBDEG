@@ -1,10 +1,11 @@
-import { FaFacebookF, FaInstagram, FaWhatsapp, FaTiktok } from 'react-icons/fa'
+import { FaFacebookF, FaInstagram, FaWhatsapp, FaTiktok, FaMapMarkerAlt } from 'react-icons/fa'
 import { companyName, facebook } from '../data/siteData'
 import styles from './Footer.module.css'
 
 const footerSocial = [
   { id: 'facebook', icon: FaFacebookF, href: facebook.href, color: '#c9a24b' },
   { id: 'whatsapp', icon: FaWhatsapp, href: 'https://wa.me/201033715666', color: '#25d366' },
+  { id: 'location', icon: FaMapMarkerAlt, href: 'https://maps.app.goo.gl/D2R3JYarPQTkfKNF6?g_st=aw', color: '#ea4335' },
   { id: 'instagram', icon: FaInstagram, href: undefined, color: null },
   { id: 'tiktok', icon: FaTiktok, href: undefined, color: null },
 ]

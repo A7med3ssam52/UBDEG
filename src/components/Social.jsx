@@ -39,7 +39,7 @@ function Social() {
                 >
                   <Icon className={styles.icon} />
                   <span className={styles.label}>{social.name}</span>
-                  <span className={styles.value}>تواصل معنا الآن</span>
+                  <span className={styles.value}>{social.id === 'location' ? 'عرض على الخريطة' : 'تواصل معنا الآن'}</span>
                 </a>
               )
             }

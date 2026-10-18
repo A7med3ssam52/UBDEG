@@ -38,6 +38,15 @@ export const contactCards = [
     color: '#1877f2',
     featured: false,
   },
+  {
+    id: 'location',
+    title: 'الموقع',
+    value: 'السادس من أكتوبر، الجيزة',
+    href: 'https://maps.app.goo.gl/D2R3JYarPQTkfKNF6?g_st=aw',
+    icon: FaMapMarkerAlt,
+    color: '#ea4335',
+    featured: false,
+  },
 ]
 
 export const teamMembers = [
@@ -86,9 +95,9 @@ export const socialLinks = [
     id: 'location',
     name: 'الموقع',
     icon: FaMapMarkerAlt,
-    href: '#',
-    active: false,
-    lit: true,
+    href: 'https://maps.app.goo.gl/D2R3JYarPQTkfKNF6?g_st=aw',
+    active: true,
+    featured: false,
     color: '#ea4335',
   },
   {
