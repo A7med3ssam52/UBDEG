@@ -4,6 +4,7 @@ import {
   FaWhatsapp,
   FaTiktok,
   FaMapMarkerAlt,
+  FaEnvelope,
 } from 'react-icons/fa'
 import { FiPhone } from 'react-icons/fi'
 
@@ -13,6 +14,12 @@ export const phone = {
   display: '+20 103 371 5666',
   href: 'tel:+201033715666',
   label: 'اتصل الآن',
+}
+
+export const email = {
+  display: 'contact@ubdeg.com',
+  href: 'mailto:contact@ubdeg.com',
+  label: 'أرسل بريداً',
 }
 
 export const facebook = {
@@ -36,6 +43,15 @@ export const contactCards = [
     href: facebook.href,
     icon: FaFacebookF,
     color: '#1877f2',
+    featured: false,
+  },
+  {
+    id: 'email',
+    title: 'البريد الإلكتروني',
+    value: email.display,
+    href: email.href,
+    icon: FaEnvelope,
+    color: '#c9a24b',
     featured: false,
   },
   {
